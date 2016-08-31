@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.1.2"
   s.summary      = "In-place editing for iOS."
   s.description  = "This UILabel category enables users to edit a label text in a place."
-  s.homepage     = "https://github.com/kaiinui/KIInPlaceEdit"
+  s.homepage     = "https://github.com/rjmiller2543/KIInPlaceEditKnockdownFor"
   s.license      = "MIT"
   s.author       = { "kaiinui" => "lied.der.optik@gmail.com" }
   s.source       = { :git => "https://github.com/kaiinui/KIInPlaceEdit.git", :tag => "v0.1.2" }

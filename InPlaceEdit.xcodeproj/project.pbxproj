@@ -10,6 +10,21 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>00B27A5146635384E4803E83</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-InPlaceEditTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-InPlaceEditTests/Pods-InPlaceEditTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2EAC2CE2C1D144E6B682C660</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -29,7 +44,31 @@
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-InPlaceEditTests-resources.sh"
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-InPlaceEditTests/Pods-InPlaceEditTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>3C450A3E2D98C481BD24BBD0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-InPlaceEditTests/Pods-InPlaceEditTests-frameworks.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
@@ -77,7 +116,21 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>A1CF4D2248E7405494E79FCC</key>
+		<key>AFBF06D28DDA3C26827EA4CB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>00B27A5146635384E4803E83</string>
+				<string>C285F1097D0756B48CFF32B4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C285F1097D0756B48CFF32B4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -86,9 +139,9 @@ fi
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>name</key>
-			<string>Pods-InPlaceEditTests.xcconfig</string>
+			<string>Pods-InPlaceEditTests.release.xcconfig</string>
 			<key>path</key>
-			<string>Pods/Pods-InPlaceEditTests.xcconfig</string>
+			<string>Pods/Target Support Files/Pods-InPlaceEditTests/Pods-InPlaceEditTests.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -107,7 +160,7 @@ fi
 				<string>D4EFB65619C2303A007383D5</string>
 				<string>D4EFB63019C2303A007383D5</string>
 				<string>D4EFB62F19C2303A007383D5</string>
-				<string>A1CF4D2248E7405494E79FCC</string>
+				<string>AFBF06D28DDA3C26827EA4CB</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -627,6 +680,7 @@ fi
 				<string>D4EFB64C19C2303A007383D5</string>
 				<string>D4EFB64D19C2303A007383D5</string>
 				<string>2EAC2CE2C1D144E6B682C660</string>
+				<string>3C450A3E2D98C481BD24BBD0</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -1016,7 +1070,7 @@ fi
 		<key>D4EFB66419C2303A007383D5</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>A1CF4D2248E7405494E79FCC</string>
+			<string>00B27A5146635384E4803E83</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
@@ -1053,7 +1107,7 @@ fi
 		<key>D4EFB66519C2303A007383D5</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>A1CF4D2248E7405494E79FCC</string>
+			<string>C285F1097D0756B48CFF32B4</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>

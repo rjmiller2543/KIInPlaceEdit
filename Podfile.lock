@@ -1,7 +1,7 @@
 PODS:
   - Expecta (0.3.1)
   - KIF (3.0.8):
-    - KIF/XCTest
+    - KIF/XCTest (= 3.0.8)
   - KIF/XCTest (3.0.8)
   - Specta (0.2.1)
 
@@ -11,8 +11,8 @@ DEPENDENCIES:
   - Specta
 
 SPEC CHECKSUMS:
-  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
-  KIF: 2db5e8cf59136dd1267d49cca0d55883389b09d3
-  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+  Expecta: a354d4633409dd9fe8c4f5ff5130426adbe31628
+  KIF: 3c2cb8e66fb216f9c3abcd714699411f0256f767
+  Specta: 15a276a6343867b426d5ed135d5aa4d04123a573
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.39.0

@@ -14,6 +14,7 @@
 @interface KIInPlaceEditController ()
 
 @property (nonatomic, weak) UILabel *label;
+@property(nonatomic,weak) NSString *labelText;
 
 @end
 
@@ -25,6 +26,7 @@
     self = [super init];
     if (self) {
         self.label = label;
+        self.labelText = label.text;
     }
     return self;
 }

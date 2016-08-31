@@ -52,6 +52,7 @@
 
 - (void)initializeTextFieldWithText:(NSString *)text {
     UITextField *field = [[UITextField alloc] initWithFrame:self.bounds];
+    field.returnKeyType = UIReturnKeyDone;
     field.text = text;
     field.font = self.font;
     field.textColor = self.textColor;
@@ -59,6 +60,7 @@
     if (self.ipe_option.target != nil) {
         [field addTarget:self.ipe_option.target action:self.ipe_option.action forControlEvents:self.ipe_option.events];
     }
+    
     [self addSubview:field];
     [field becomeFirstResponder]; // Focus on the text field.
 }
