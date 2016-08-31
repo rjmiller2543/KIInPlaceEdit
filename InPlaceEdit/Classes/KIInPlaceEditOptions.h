@@ -12,6 +12,8 @@ typedef NS_ENUM(NSUInteger, KIInPlaceEditGesture) {
     KIInPlaceEditGestureLongPress
 };
 
+typedef void(^ReturnCallback)(NSString *text);
+
 /**
  *  This class enables you to provide options to In-place editing.
  */
@@ -32,6 +34,8 @@ typedef NS_ENUM(NSUInteger, KIInPlaceEditGesture) {
  *  Gesture to start in-place editing.
  */
 @property KIInPlaceEditGesture gesture;
+
+@property(nonatomic) ReturnCallback callback;
 
 # pragma mark - UIControl Events
 

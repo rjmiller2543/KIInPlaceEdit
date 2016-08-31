@@ -58,6 +58,7 @@
     [self.label sizeToFit];
     [textField resignFirstResponder]; // Stop focusing.
     [textField removeFromSuperview];
+    self.label.ipe_option.callback(textField.text);
     return NO;
 }
 

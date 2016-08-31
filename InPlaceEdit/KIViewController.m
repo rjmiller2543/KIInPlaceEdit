@@ -24,6 +24,9 @@
     
     self.label.userInteractionEnabled = YES;
     KIInPlaceEditOptions *options = [KIInPlaceEditOptions longPressAndPromptToEdit];
+    options.callback = ^(NSString *labelText){
+        NSLog(@"callback text: %@", labelText);
+    };
     [options setTarget:self action:@selector(inPlaceTextFieldEvent:) forControlEvents:UIControlEventEditingDidEnd];
     [self.label ipe_enableInPlaceEdit:options];
 }

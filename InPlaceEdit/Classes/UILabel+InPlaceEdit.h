@@ -27,3 +27,4 @@
 - (void)ipe_enableInPlaceEdit:(KIInPlaceEditOptions *)option;
 
 @end
+
