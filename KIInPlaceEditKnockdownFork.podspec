@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/rjmiller2543/KIInPlaceEditKnockdownFork"
   s.license      = "MIT"
   s.author       = { "kaiinui" => "lied.der.optik@gmail.com" }
-  s.source       = { :git => "https://github.com/rjmiller2543/KIInPlaceEditKnockdownFork.git", :tag => "v0.1.4" }
+  s.source       = { :git => "https://github.com/rjmiller2543/KIInPlaceEditKnockdownFork.git" }
   s.source_files  = "InPlaceEdit/Classes/**/*.{h,m}"
   s.requires_arc = true
   s.platform = "ios", '7.0'
