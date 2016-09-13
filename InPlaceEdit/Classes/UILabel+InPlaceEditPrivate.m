@@ -53,6 +53,7 @@
 - (void)initializeTextFieldWithText:(NSString *)text {
     UITextField *field = [[UITextField alloc] initWithFrame:self.bounds];
     field.returnKeyType = UIReturnKeyDone;
+    field.autocapitalizationType = UITextAutocapitalizationTypeWords;
     field.text = text;
     field.font = self.font;
     field.textColor = self.textColor;

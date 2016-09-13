@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KIInPlaceEditKnockdownFork"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "In-place editing for iOS."
   s.description  = "This UILabel category enables users to edit a label text in a place."
   s.homepage     = "https://github.com/rjmiller2543/KIInPlaceEditKnockdownFork"
